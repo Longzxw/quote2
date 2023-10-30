@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+}
+.quotes {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  text-align: start;
+}
+.quotes button {
+  height: 2rem;
+  text-transform: uppercase;
+}
+.quotes p {
+  margin: 0;
+  padding: 0;
+}
+.author_quote p ,.author_quote legend {
+  text-align: start;
+}
+.author_quote fieldset{
+  margin: 1rem 0;
+}
+.author_quote button {
+  width: 10rem;
+  margin-top: 1rem;
+}
+p.quote-conten{
+  padding-bottom: 1rem;
+}
+p.author strong {
+  color: red;
+  cursor: pointer;
+}
+.footer-quote {
+  padding-top: 1rem;
+  border-top: 1px dashed #808080;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
